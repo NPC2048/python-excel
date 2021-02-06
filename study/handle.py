@@ -11,7 +11,7 @@ year = 2021
 excel_name = "商户费用应收表--2021.1.19--2021 更新于2021.1.20-test-01"
 
 # load workbook
-wb = load_workbook('../data/商户费用应收表--2021.1.19--2021 更新于2021.1.20-test-01.xlsx')
+wb = load_workbook('../data/商户费用应收表--2021.1.19--2021 更新于2021.1.20.xlsx')
 wb.template = False
 ws = wb.active
 target = wb.copy_worksheet(ws)
